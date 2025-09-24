@@ -1,6 +1,7 @@
 # Use a Python 3.12.3 Alpine base image
 FROM python:3.12-alpine3.20
 
+
 # Set the working directory
 WORKDIR /app
 
@@ -35,4 +36,5 @@ RUN pip3 install --no-cache-dir --upgrade pip \
 
 # Set the command to run the application
 CMD ["sh", "-c", "gunicorn app:app & python3 modules/main.py"]
+
 
