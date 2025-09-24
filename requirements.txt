@@ -37,3 +37,4 @@ soupsieve
 typing_extensions
 urllib3
 Werkzeug
+ffmpeg-python
