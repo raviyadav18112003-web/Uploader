@@ -1,0 +1,13 @@
+flask
+gunicorn
+requests
+beautifulsoup4
+pytz
+asyncio
+yt-dlp
+tgcrypto
+cloudscraper
+aiohttp
+pyrogram
+pytube
+cryptography
