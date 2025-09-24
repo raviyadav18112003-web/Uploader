@@ -12,3 +12,4 @@ pyrogram==2.0.106
 pytube
 cryptography
 m3u8
+pycryptodome
