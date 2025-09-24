@@ -5,6 +5,7 @@ from vars import OWNER, CREDIT, AUTH_USERS, TOTAL_USERS
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
+
 # .....,.....,.......,...,.......,....., .....,.....,.......,...,.......,.....,
 
 async def add_auth_user(client: Client, message: Message):
