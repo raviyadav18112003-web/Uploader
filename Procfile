@@ -1,2 +1,1 @@
-web: gunicorn Modules.app:app
-worker: python Modules/main.py
+web: python3 modules/main.py
